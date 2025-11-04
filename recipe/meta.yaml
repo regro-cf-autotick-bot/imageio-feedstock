@@ -1,5 +1,5 @@
 {% set tests_to_skip = "_not_a_real_test" %}
-{% set version = "2.37.0" %}
+{% set version = "2.37.2" %}
 
 package:
   name: imageio
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/imageio/imageio-{{ version }}.tar.gz
-  sha256: 71b57b3669666272c818497aebba2b4c5f20d5b37c81720e5e1a56d59c492996
+  sha256: 0212ef2727ac9caa5ca4b2c75ae89454312f440a756fcfc8ef1993e718f50f8a
 
 build:
   number: 0
